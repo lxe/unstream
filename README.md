@@ -1,5 +1,7 @@
 # unstream
 
+[![Build Status](https://travis-ci.org/lxe/unstream.svg)](https://travis-ci.org/lxe/unstream)
+
 Like [`concat-stream`](https://github.com/maxogden/concat-stream), except it returns a transform stream, allowing you to continue streaming after concatenation-buffering.
 
 Currently unstream doesn't support object-mode.
