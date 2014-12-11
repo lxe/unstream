@@ -6,6 +6,10 @@ Like [`concat-stream`](https://github.com/maxogden/concat-stream), except it ret
 
 Currently unstream doesn't support object-mode.
 
+#### Uggh, why is this a thing? It's a crime against streams!
+
+Sometimes, it is very complex, both in implementation and computation, to perform a complex transform on partial data. Also, sometimes you need the nice .pipe() API, so terminating a stream with `concat-stream` or `bl` won't work.
+
 #### `unstream(function (body, callback) { })`
 
 ```javascript
