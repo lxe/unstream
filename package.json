@@ -1,0 +1,26 @@
+{
+  "name": "unstream",
+  "version": "1.0.0",
+  "description": "buffer, transform, and re-stream",
+  "main": "unstream.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxe/unstream.git"
+  },
+  "keywords": [
+    "stream",
+    "buffer"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxe/unstream/issues"
+  },
+  "homepage": "https://github.com/lxe/unstream",
+  "dependencies": {
+    "concat-stream": "^1.4.7"
+  }
+}
