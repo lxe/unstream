@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/lxe/unstream/issues"
   },
-  "homepage": "https://github.com/lxe/unstream",
-  "dependencies": {
-    "concat-stream": "^1.4.7"
-  }
+  "homepage": "https://github.com/lxe/unstream"
 }
