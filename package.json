@@ -1,6 +1,6 @@
 {
   "name": "unstream",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "buffer, transform, and re-stream",
   "main": "unstream.js",
   "scripts": {
