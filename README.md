@@ -1,6 +1,6 @@
 # unstream
 
-[![Build Status](https://travis-ci.org/lxe/unstream.svg)](https://travis-ci.org/lxe/unstream)
+[![Build Status](https://travis-ci.org/lxe/unstream.svg)](https://travis-ci.org/lxe/unstream) [![Coverage Status](https://coveralls.io/repos/lxe/unstream/badge.svg)](https://coveralls.io/r/lxe/unstream)
 
 Like [`concat-stream`](http://ghub.io/concat-stream), or [`bl`](http://ghub.io/bl) except it returns a transform stream, allowing you to continue streaming after concat-buffering.
 
