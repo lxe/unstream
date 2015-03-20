@@ -4,3 +4,8 @@ node_js:
   - "0.12"
   - "iojs"
   - "iojs-1.6.0"
+before_script:
+  - npm install node-coveralls istanbul
+script:
+  - istanbul cover test.js --report lcovonly
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
